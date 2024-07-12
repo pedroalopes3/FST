@@ -1,0 +1,14 @@
+Kick mode parametros:
+Velocidade: 4 ms
+Angulo: 90º
+
+omegas = velocidades angulares de cada roda
+EKF_x_13_vx = velocidade linear do carro em x (por estimação)
+dash_se = angulo do volante
+
+Intervalo dash_se: [-127;127] º
+
+Valores de referencia:
+	
+	* -600 < mz < 600
+	* -21000 < torques < 21000 
