@@ -2,13 +2,21 @@ Kick mode parametros:
 Velocidade: 4 ms
 Angulo: 90º
 
+pedais (0 a 100):
+	te_main_APPS = acelerador
+	te_main_BPSe = travao
 omegas = velocidades angulares de cada roda
 EKF_x_13_vx = velocidade linear do carro em x (por estimação)
 dash_se = angulo do volante
+...(x):
+	x = 1: front left 
+	x = 2: rear left
+	x = 3: front right
+	x = 4: rear right
 
-Intervalo dash_se: [-127;127] º
+Intervalo dash_se(volante): [-127;127]º (+ no sentido antihorario; - no sentido horario)  
 
 Valores de referencia:
 	
 	* -600 < mz < 600
-	* -21000 < torques < 21000 
+	* -21000 < torques < 21000 (limite fisico dos motores)
